@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include "binary_trees.h"
 /**
  *binary_tree_node- the fuction binary node
  *@value: the value
@@ -14,4 +16,5 @@ newNode->value = value;
 newNode->parent = parent;
 newNode->left = NULL;
 newNode->right = NULL;
+return (newNode);
 }
